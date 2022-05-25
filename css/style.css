@@ -57,15 +57,19 @@ body{
     flex: 1 1 auto;
     border-bottom: solid 1px #aaaaaa;
     margin-left: 60px ;
-    margin-right: 70px;
-    margin-top: 3050px;    
+    margin-right: 2000px;
+    margin-top: 700px;
+    border: 3px solid #FFFFFF;
+    transform: rotate(180deg);    
 
  } 
 
  .center_line p{
-     margin-top:3050px;
+     margin-top:700px;
      margin-right: 200px;
-     font-size: 40px ;
+     font-size: 64px ;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     color: #F4F4F4;
  }
 body{
     /* background-image:url('../img/fondo\ logo.png');
@@ -234,6 +238,7 @@ color:rgb(121, 121, 120);
     font-size:44px;
     line-height:66px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top:250px;
 }
 .beneficio ul{
     position: absolute;
@@ -241,6 +246,10 @@ width: 811px;
 height: 528px;
 left: 52px;
 top: 1463px;
+}
+
+.beneficio ul li{
+    padding: 10px;
 }
 
 .beneficio ul li a{
